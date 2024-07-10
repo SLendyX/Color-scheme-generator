@@ -85,7 +85,7 @@ input[type="color"]::-webkit-color-swatch {
 .color-container{
     margin: 0 auto;
     max-width: 550px;
-    height: 83vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(12, 1fr);
