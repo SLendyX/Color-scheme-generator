@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Color Generator</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">    </head>
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+    
+    <body>
+        <form id="color-form">
+            <input type="color" name="color_seed" id="color-selector">
+            <select id="color-style-element" name="color_style">
+                
+            </select>
+            <button class="submit-btn">Get color scheme</button>
+        </form>
+        <div class="color-container" id="color-container"></div>
+
+        <div id="copy-alert" class="copy-alert hidden"><span>Copied to clipboard</span></div>
+
+        <script src="./scripts/index.js" type="module"></script>
+    </body>
+</html>
