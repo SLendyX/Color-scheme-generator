@@ -1,1 +1,1 @@
-https://colour-schema.netlify.app
+https://colour-schema.netlify.app 
